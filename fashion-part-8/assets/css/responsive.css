@@ -111,6 +111,7 @@
 .product-promotions .owl-dots div {
     display: inline-block;
     margin: 5px;
+    margin-top: 15px;
 }
 
 .footer-area, .footer-area .text-right {
