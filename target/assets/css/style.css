@@ -1,0 +1,133 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 23px;
+    padding-right: 0;
+    font-size: 15px;
+    padding-left: 28px;
+    color: #fff;
+}
+
+.main-menu li a:hover {
+    color: #f3b81c;
+}
+
+.single-slide-item {
+    background: #263238;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.homepage-slides h2 {
+    color: #f3b81c;
+    font-weight: 100;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.slide-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.single-slide-item .row {position: relative;}
+
+.slide-text {padding-top: 195px;padding-bottom: 99px;}
+
+.single-slide-item img {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    max-height: 443px;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 9;
+}
+
+.logo img {
+    max-height: 50px;
+    margin: 15px;
+}
+
+.bordered-btn {
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+
+.bordered-btn:hover {
+    background: #fbc83f;
+    color: #fff;
+    border: 1px solid #fbc83f;
+}
+
+.owl-carousel .owl-item .single-slide-item img {
+    width: auto;
+    display: inline-block;
+}
+
+.logo {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.logo a {
+    color: #fdcf49;
+}
