@@ -17,14 +17,23 @@
     margin-left: 141px;
     margin-top: 0;
 }
+.big-feature-bordered-image {
+    width: 90%;
+}
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+ .big-feature-bordered-image {
+	width: 90%;
+}
     
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
+	
+.big-feature-bordered-image {
+	width: 90%;
+}
 
 }
