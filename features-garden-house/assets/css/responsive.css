@@ -26,12 +26,13 @@
 @media only screen and (max-width: 767px) { 
  .big-feature-bordered-image {
 	width: 90%;
+	height: 300px;
 }
     
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-	
+
 .big-feature-bordered-image {
 	width: 90%;
 }
