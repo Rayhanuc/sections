@@ -1,0 +1,52 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .footer-wid {
+    margin-bottom: 30px;
+}
+.footer-area {
+    padding: 30px;
+}
+
+.footer-subscribtion-form input[type=email] {
+    width: 100%;
+}
+
+.footer-subscribtion-form input[type=submit] {
+    width: 50%;
+    margin-top: 6px;
+}
+
+ .copyright-area {
+    padding: 40px;
+    text-align: center;
+}
+
+.copyright-area .text-right {
+    text-align: center;
+    margin-top: 15px
+}
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .copyright-area {
+    padding: 40px;
+    text-align: center;
+}
+
+.copyright-area .text-right {
+    text-align: center;
+    margin-top: 15px
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

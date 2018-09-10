@@ -1,0 +1,140 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.footer-area {
+    background: #14ADF3;
+    padding: 80px 0;
+}
+
+.footer-area, .footer-area a {
+    color: #fff;
+}
+
+.footer-wid h3 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    font-size: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.footer-wid ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 25px;
+}
+
+.contact-info {
+    position: relative;
+    padding-left: 35px;
+}
+
+.contact-info i.fa {
+    position: absolute;
+    font-size: 16px;
+    top: 3px;
+    left: 0;
+}
+
+.contact-info i.fa.fa-map-marker {
+    top: 6px;
+}
+
+.footer-subscribtion-form h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer-subscribtion-form {
+    margin-top: 30px;
+}
+
+.footer-subscribtion-form input[type=email] {
+    border: none;
+    padding: 10px;
+    width: 73%;
+}
+
+.footer-subscribtion-form input::placeholder {
+    color: #9c9c9c;
+}
+
+.footer-subscribtion-form input[type=submit] {
+    color: #14adf3;
+    font-weight: 700;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.footer-subscribtion-form form {
+    margin-bottom: 10px;
+}
+
+.footer-subscribtion-form p {
+    font-size: 90%;
+}
+
+.copyright-area, .copyright-area a {
+    color: #ADADAD;
+}
+
+.copyright-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.copyright-area li {
+    display: inline-block;
+}
+
+.copyright-area li:after {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.copyright-area li:last-child:after {
+    display: none;
+}
+
+.copyright-area {
+    padding: 20px 0;
+}
