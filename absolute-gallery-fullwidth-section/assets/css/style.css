@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Archivo', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+body {
+    color: #888888;
+}
+
+h1 {
+    color: #303030;
+}
+
+.bigger-text {
+    font-size: 18px;
+    line-height: 1.9;
+    padding: 0 70px;
+    padding-left: 32px;
+}
+
+.bigger-text h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53px;
+    margin-bottom: 50px;
+}
+
+.boxed-btn {
+    color: #fff;
+    background: #337ab7;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    background: #205786;
+}
+
+.bigger-text .boxed-btn {
+    margin-top: 30px;
+}
+
+.shadow-gallery {
+    position: relative;
+    padding-top: 10px;
+}
+
+.shadow-gallery img:nth-child(2), .shadow-gallery img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.shadow-gallery img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    box-shadow: 0 0 50px #BDBDBF;
+}
+
+.shadow-gallery img:nth-child(3) {
+    z-index: 3;
+    width: 70%;
+    left: -50px;
+    right: auto;
+    bottom: -80px;
+}
+
+.shadow-gallery img:nth-child(2) {
+    z-index: 2;
+    margin-right: 30px;
+}
+
+
+.shadow-gallery img:nth-child(1) {
+    top: -30px;
+}
