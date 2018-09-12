@@ -1,0 +1,102 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+a:hover { text-decoration: none }
+
+.single-slide-item {background-image: url(../img/bg-1.jpg);}
+
+.single-slide-item {
+    background-position: center;
+    background-size: cover;
+    background-color: #333;
+    height: 650px;
+    margin-bottom: 400px;
+    position: relative;
+}
+
+.slide-text-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide-text {
+    background: #1C83C8;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 150px;
+    font-size: 18px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.slide-text h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #3E3F43;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 16px 30px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.slide-text:before {
+    position: absolute;
+    top: 0;
+    left: -1000%;
+    width: 1000%;
+    height: 100%;
+    content: "";
+    background: #1c83c8;
+}
+
+.slide-text:after {
+    position: absolute;
+    right: -10px;
+    top: 50px;
+    background: #1c83c8;
+    height: 20px;
+    width: 20px;
+    content: "";
+    transform: rotate(45deg);
+}

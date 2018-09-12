@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Changa+One:400,400i|Roboto:300,300i,400,400i');
+
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 900;
+    font-family: 'Changa One', cursive;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fbfbfb8c;
+}
+a:hover { text-decoration: none }
+
+.promo-bg-1 {background-image: url(../img/bg-1.jpg);}
+.promo-bg-2 {background-image: url(../img/bg-2.jpg);}
+.promo-bg-3 {background-image: url(../img/bg-3.jpg);}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-promo-box {
+    display: block;
+    position: relative;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    transition: .3s
+}
+
+.promo-content {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+}
+
+.promo-content h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.single-promo-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #999;
+}
+
+.heading {
+    margin-bottom: 40px;
+    color: #f7994a;
+}
+
+
+/* scroll to top btn css start */
+.scrollToTop {
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    height: 49px;
+    background: #f7994a;
+    right: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    position: fixed;
+    display: block;
+    transition: .3s;
+}
+
+.scrollToTop:hover {
+    background: #c76919;
+    color: #fff;
+}/* scroll to top btn css end */
