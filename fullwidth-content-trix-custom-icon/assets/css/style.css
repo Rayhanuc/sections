@@ -1,0 +1,203 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+
+body {
+    background: #F5F6FB;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.promo-boxes-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.single-promo-box {
+    height: 350px;
+    width: 50%;
+    float: left;
+    display: table;
+    text-align: center;
+}
+
+.promo-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-promo-box:nth-child(2) {
+    background: #DA879B;
+}
+
+.single-promo-box:nth-child(3) {
+    background: #7BBAD0;
+}
+
+
+.promo-icon:before {
+    font-size: 70px;
+}
+
+.single-promo-box h2 {
+    font-weight: 900;
+    font-size: 28px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.boxed-btn {
+    background: #7BBAD0;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.single-promo-box h2:after {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    content: "";
+    background: #da879b;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.single-promo-box {
+    font-size: 20px;
+    background: #fff;
+}
+
+.single-promo-box .boxed-btn {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.promo-box-tablecell {
+    padding-top: 83px;
+    transition: .3s;
+}
+
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+
+.single-promo-box:hover .boxed-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+.promo-icon {
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.single-promo-box:nth-child(2), .single-promo-box:nth-child(3) {
+    color: #fff;
+}
+
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+    background: #fff;
+}
+
+.single-promo-box:nth-child(4) h2:after {
+    background: #7bbad0;
+}
+
+.single-promo-box:nth-child(4) .promo-icon {
+    color: #7bbad0;
+}
+
+.single-promo-box:nth-child(3) .boxed-btn, .single-promo-box:nth-child(2) .boxed-btn {
+    color: #000;
+    background: #fff;
+}
+
+.right-side-content {
+    padding-left: 50px;
+    line-height: 1.7;
+    padding-top: 100px;
+}
+
+.section-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: #7bbad0;
+    margin-bottom: 5px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.right-side-content h4 {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.right-side-content p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bordered-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    border: 2px solid #7bbad0;
+    border-radius: 50px;
+    margin-left: 20px;
+    color: #7bbad0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-btns .boxed-btn {
+    text-transform: uppercase;
+}
+
+.section-btns {
+    margin-top: 40px;
+}

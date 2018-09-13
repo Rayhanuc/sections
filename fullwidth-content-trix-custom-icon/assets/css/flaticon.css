@@ -1,0 +1,61 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/05/2017 10:53
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-cardiogram-1:before { content: "\f100"; }
+.flaticon-002-veterinarian-3:before { content: "\f101"; }
+.flaticon-003-pet-house:before { content: "\f102"; }
+.flaticon-004-pet-food:before { content: "\f103"; }
+.flaticon-005-grooming:before { content: "\f104"; }
+.flaticon-006-fish-bowl:before { content: "\f105"; }
+.flaticon-007-loupe:before { content: "\f106"; }
+.flaticon-008-pills:before { content: "\f107"; }
+.flaticon-009-cardiogram:before { content: "\f108"; }
+.flaticon-010-bone:before { content: "\f109"; }
+.flaticon-011-bird:before { content: "\f10a"; }
+.flaticon-012-poo:before { content: "\f10b"; }
+.flaticon-013-medical-history:before { content: "\f10c"; }
+.flaticon-014-veterinarian-2:before { content: "\f10d"; }
+.flaticon-015-collars:before { content: "\f10e"; }
+.flaticon-016-scalpel:before { content: "\f10f"; }
+.flaticon-017-nurse:before { content: "\f110"; }
+.flaticon-018-dog-food:before { content: "\f111"; }
+.flaticon-019-insecticide:before { content: "\f112"; }
+.flaticon-020-pawprint:before { content: "\f113"; }
+.flaticon-021-shampoo:before { content: "\f114"; }
+.flaticon-022-medicine:before { content: "\f115"; }
+.flaticon-023-first-aid-kit:before { content: "\f116"; }
+.flaticon-024-carrier:before { content: "\f117"; }
+.flaticon-025-syringe:before { content: "\f118"; }
+.flaticon-026-stethoscope:before { content: "\f119"; }
+.flaticon-027-cat:before { content: "\f11a"; }
+.flaticon-028-dog:before { content: "\f11b"; }
+.flaticon-029-veterinarian-1:before { content: "\f11c"; }
+.flaticon-030-veterinarian:before { content: "\f11d"; }
