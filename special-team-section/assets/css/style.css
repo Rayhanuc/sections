@@ -1,0 +1,102 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.team-bg-1 {background-image: url(../img/author-1.png);}
+.team-bg-2 {background-image: url(../img/author-2.png);}
+.team-bg-3 {background-image: url(../img/author-3.png);}
+
+.section-title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: right;
+    font-weight: 900;
+    transform: rotate(270deg);
+    margin-top: 130px;
+    letter-spacing: 2px;
+    width: 300px;
+    margin-left: -60px;
+}
+
+.section-title:before {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 1px;
+    content: "";
+    background: #9E9E9E;
+    top: -35px;
+}
+
+.team-bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 50px;
+}
+
+.bordered-content {
+    border: 1px solid #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.bordered-content h3 {
+    font-size: 20px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.team-title {
+    margin-top: -14px;
+}
+
+.bordered-content p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.col-md-4:nth-child(2) .sngle-team-member {
+    margin-top: 100px;
+}
