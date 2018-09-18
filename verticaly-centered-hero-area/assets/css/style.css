@@ -1,0 +1,222 @@
+/* Base CSS */
+
+/*font link start*/
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*font link end*/
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.hero-area-logo h3 {font-family: 'Mr De Haviland', cursive;}
+
+.welcom-hero-area {background-image: url(../img/bg-1.jpg);}
+
+body, html {
+    height: 100%;
+}
+
+.welcom-hero-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.logo a {
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.logo a:after {
+    left: 0;
+    bottom: 0;
+    width: 71px;
+    height: 2px;
+    content: "";
+    background: #fff;
+    position: absolute;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.main-menu li a {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.main-menu li a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #fff;
+}
+
+.main-menu {
+    margin-top: 3px;
+}
+
+.welcom-hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.scroll-to-about {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    opacity: .8;
+}
+
+.hero-area-logo h3 {
+    color: #c49a5f;
+    font-size: 100px;
+    line-height: 55px;
+    margin: 0;
+}
+
+.hero-area-logo h2 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.bordered-area-left-border, .bordered-area-right-border {
+    float: left;
+    height: 2px;
+    width: 31%;
+    background: #fff;
+    margin-top: 9px;
+}
+
+.bordered-area-right-border:before {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-right: 10px solid white;
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    right: 0;
+    content: "";
+    top: -3px;
+}
+
+.bordered-area-left-border:before {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    left: 0;
+    content: "";
+    top: -3px;
+}
+
+.bordered-area-right-border, .bordered-area-left-border {
+    position: relative;
+}
+
+.bordered-area {
+    overflow: hidden;
+    width: 335px;
+    margin: 0 auto;
+}
+
+.bordered-area .snow-icon {
+    float: left;
+    margin: 0 20px;
+    color: #c49a5f;
+    font-size: 15px;
+}
+
+.bordered-area-left-border {
+    margin-left: 39px;
+}
+
+.hero-area-logo p {
+    color: #fff;
+}
