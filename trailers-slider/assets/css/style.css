@@ -1,0 +1,165 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto:300,300i,400,400i,500,500i,700,700i,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding.dark-bg {
+    background: #353535;
+    color: #A1A1A1;
+}
+
+.tailor-text {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-top: 60px;
+}
+
+.tailor-text h2 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.tailor-text h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    content: "";
+    background: #FF5151;
+    width: 30px;
+    height: 3px;
+}
+
+.bordered-btn {
+    border: 2px solid #FF5151;
+    display: inline-block;
+    padding: 8px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.bordered-btn i.fa {
+    float: right;
+    padding-top: 3px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.trailor-info {
+    position: relative;
+    display: inline-block;
+}
+
+.colored-pricing-box {
+    position: absolute;
+    right: 140px;
+    background: #FE5050;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    padding-top: 50px;
+    height: 340px;
+}
+
+.colored-pricing-box p {
+    opacity: .5;
+}
+
+.colored-pricing-box p.price-text {
+    color: #fff;
+    opacity: 1;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.absolute-shopping-cart {
+    position: absolute;
+    left: -25px;
+    top: 35px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    line-height: 50px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #666;
+}
+
+.trailor-info img {
+    position: relative;
+    padding-top: 160px;
+}
+
+.owl-carousel .owl-item .trailor-info img {
+    width: auto;
+    display: inline;
+}
+
+.featured-trailors-carousel .owl-dots div:nth-child(1) span:before {
+    content: "01";
+}
+.featured-trailors-carousel .owl-dots div:nth-child(2) span:before {
+    content: "02";
+}
+.featured-trailors-carousel .owl-dots div:nth-child(3) span:before {
+    content: "03";
+}
+
+.featured-trailors-carousel .owl-dots div {
+    border-left: 2px solid #444444;
+    padding: 20px 15px;
+}
+
+.featured-trailors-carousel .owl-dots div.active {
+    border-color: #ff5151;
+    color: #fff;
+    font-weight: 500;
+}
+
+.featured-trailors-carousel .owl-dots {
+    position: absolute;
+    right: -80px;
+    top: 30%;
+}
