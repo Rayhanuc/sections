@@ -1,0 +1,141 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.pricing-tables {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.single-pricing-box {
+    width: 33.3333%;
+    float: left;
+    box-shadow: 0 0 10px #F3F3F3;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin-top: 30px;
+}
+
+.pricing-heading {
+    background: #F9F9F9;
+    color: #888888;
+    font-size: 17px;
+    padding: 40px;
+}
+
+body {
+    color: #888888;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.pricing-heading h4 {
+    color: #888888;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.pricing-heading h1 {
+    color: #333333;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.single-pricing-box.active {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.3333%;
+    margin-top: 0;
+}
+
+.pricing-content {
+    padding: 70px;
+}
+
+.pricing-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+.pricing-btn {
+    display: inline-block;
+    border: 1px solid #F91942;
+    color: #F91942;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.active .pricing-heading {
+    background: #FA1943;
+    margin-top: 0px;
+}
+
+.active .pricing-heading, .active .pricing-heading h4, .active .pricing-heading h1 {
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.active .pricing-content {
+    padding: 80px 70px;
+}
+
+.active a.pricing-btn {
+    background: #f92249;
+    color: #fff;
+}
+.active .pricing-heading {
+    overflow: hidden;
+}
+
+.active .pricing-heading:after {content: "Featured";position: absolute;top: 20px;right: -39px;color: #fa1943;background: #fff;padding: 5px 50px;transform: rotate(45deg);font-size: 14px;}
+
+.single-pricing-box.active {
+    overflow: hidden;
+}
+
+.pricing-btn:hover {
+    background: #f92249;
+    color: #fff;
+}
