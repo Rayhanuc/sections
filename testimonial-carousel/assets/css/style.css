@@ -1,0 +1,115 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.testimonial-bg {background-image: url(../img/testimonial-slider-bg.jpg);}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.testimonial-bg {
+    background-color: #333;
+    color: #fff;
+}
+
+.user-avater img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user-avater {
+    margin-bottom: 30px;
+}
+
+.testimonial-content {
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    line-height: 29px;
+}
+
+.single-testimonial-item h4 {
+    opacity: .7;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.single-testimonial-item h4 span {
+    display: block;
+    font-weight: 400;
+    font-size: 80%;
+    margin-top: 8px;
+}
+
+.single-testimonial-item {
+    text-align: center;
+}
+
+.testimonial-carousel .owl-dots div {
+    width: 15px;
+    height: 15px;
+    background: #2E4451;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.testimonial-carousel .owl-dots div.active {
+    background: #fff;
+}
+
+.testimonial-carousel .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.testimonial-carousel:before, .testimonial-carousel:after {
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 30px;
+}
+.testimonial-carousel:before {
+    left: -50px;
+    top: 124px;
+    content: "\f10d";
+}
+
+.testimonial-carousel:after {
+    right: -50px;
+    bottom: 124px;
+    content: "\f10e";
+}
