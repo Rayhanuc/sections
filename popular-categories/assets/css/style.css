@@ -1,0 +1,159 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.listing-bg-1 {background-image: url(../img/bg-1.JPG);}
+.listing-bg-2 {background-image: url(../img/bg-2.JPG);}
+.listing-bg-3 {background-image: url(../img/bg-3.JPG);}
+.listing-bg-4 {background-image: url(../img/bg-4.JPG);}
+.listing-bg-5 {background-image: url(../img/bg-5.JPG);}
+.listing-bg-6 {background-image: url(../img/bg-6.JPG);}
+.listing-bg-7 {background-image: url(../img/bg-7.JPG);}
+.listing-bg-8 {background-image: url(../img/bg-8.JPG);}
+.listing-bg-9 {background-image: url(../img/bg-9.JPG);}
+.listing-bg-10 {background-image: url(../img/bg-10.JPG);}
+.listing-bg-11 {background-image: url(../img/bg-11.JPG);}
+.listing-bg-12 {background-image: url(../img/bg-12.JPG);}
+.listing-bg-13 {background-image: url(../img/bg-13.JPG);}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+}
+
+.section-title p span {
+    color: #F91942;
+}
+
+.section-title p {
+    color: #888888;
+}
+
+.single-listing-box {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+}
+
+.listing-hover h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.listing-hover {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    bottom: 40px;
+    color: #ddd;
+    font-size: 18px;
+}
+
+.bordered-btn {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.single-listing-box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .4;
+    z-index: -1;
+}
+
+.listing-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+
+.section-padding.listing-carousel-wrapper {
+    overflow-x: hidden;
+}
+
+.listing-carousel {
+    position: relative;
+}
+
+.listing-carousel:before, .listing-carousel:after {
+    position: absolute;
+    left: -500%;
+    top: 0;
+    width: 500%;
+    height: 100%;
+    content: "";
+    background: #fff;
+    z-index: 1;
+    opacity: .7;
+}
+
+.listing-carousel:after {
+    left: auto;
+    right: -500%;
+}
+
+.listing-carousel .owl-dots div {
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #BFBFBF;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.listing-carousel .owl-dots div.active {
+    background-color: #BFBFBF;
+}
+
+.listing-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;    
+}
