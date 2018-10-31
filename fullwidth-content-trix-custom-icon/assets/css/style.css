@@ -1,5 +1,6 @@
 /* Base CSS */
 
+
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900');
 
 .alignleft {
@@ -200,4 +201,8 @@ body {
 
 .section-btns {
     margin-top: 40px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    margin-left: 0;
 }
