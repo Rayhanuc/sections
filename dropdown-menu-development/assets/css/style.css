@@ -31,6 +31,66 @@ body {
 }
 a:hover { text-decoration: none }
 
+.mainmenu-area ul {
+    background: #26395A;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu-area li {
+    display: inline-block;
+    position: relative;
+    
+}
+.mainmenu-area li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px;
+    display: block;
+}
+
+.mainmenu-area li ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.mainmenu-area li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 51.8px;
+}
+.mainmenu-area li ul a {
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.mainmenu-area li ul li {
+    display: block;
+}
+
+.mainmenu-area ul li:hover > a {
+    background: #1CC9CE;
+    color: #fff;
+}
+.mainmenu-area ul li > a {
+    transition: .3s
+}
+
+
+
+
+
+
+
 .service-box-bg-1 {background-image: url(../img/brain.jpg);}
 .service-box-bg-2 {background-image: url(../img/dentist.jpg);}
 .service-box-bg-3 {background-image: url(../img/bacteria.png);}
