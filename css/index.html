@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+		    background-color: gainsboro;
+		}
+
+		button {
+		    display: block;
+		    width: 40%;
+		    padding: 20px;
+		    margin: 50px auto;
+		    border: none;
+		    cursor: pointer;
+		    color: #fff;
+		    background-color: tomato;
+		    transition-duration: 1s;
+		    transition-property: all;
+		}
+
+		button:hover {
+		    background-color: chocolate;
+		}
+
+		.div{
+			margin-top: 50px;
+			background-color: teal;
+			height: 200px;
+			width: 50%;
+			/*transition-property: width;*/
+			transition-duration: .5s;
+			
+		}
+		.div:hover{
+			width: 80%;
+		}
+
+
+		.container{
+            margin: 10px 100px 10px 10px;
+            padding: 30px ;
+            background-color: #fff;
+            margin-top: 60px;
+        }
+        .box{
+            padding: 10px;
+            background-color: teal;
+            color: #fff;
+            width: 80px;
+            margin: 20px;
+            position: relative;
+            left: 0;
+            transition-property: left;
+            transition-duration: 1s;
+        }
+        .box p{
+            text-align: center;
+            line-height: 50px;
+        }
+        .container:hover .box{
+            left: 80%;
+        }
+        #ease{
+            transition-timing-function: ease;
+        }
+        #linear{
+            transition-timing-function: linear;
+        }
+        #ease-in{
+            transition-timing-function: ease-in;
+        }
+        #ease-out{
+            transition-timing-function: ease-out;
+        }
+        #ease-in-out{
+            transition-timing-function: ease-in-out;
+        }
+
+        .animation-bg {
+            background: white;
+            padding: 20px;
+        }
+
+        .animation-area {
+            background: red;
+            width: 124px;
+            text-align: center;
+            line-height: 100px;
+            transition:cubic-bezier(.46,-0.35,1,-0.3);
+            transition: .3s;
+        }
+        .animation-area:hover {
+            width: 500px;
+            height: 600px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+	</style>
+
+</head>
+<body>
+	<button>Watch courses</button>
+
+	<div class="div">
+		
+	</div>
+
+	<div class="container">
+        <div class="box" id="ease">
+            <p>ease</p>
+        </div>
+        <div class="box" id="linear">
+            <p>linear</p>
+        </div>
+        <div class="box" id="ease-in">
+            <p>ease-in</p>
+        </div>
+        <div class="box" id="ease-out">
+            <p>ease-out</p>
+        </div>
+        <div class="box" id="ease-in-out">
+            <p>ease-in-out</p>
+        </div>
+    </div>
+
+    <div class="part-1">
+        <h2>Cubic bezier</h2>
+        <div class="animation-bg">
+            <div class="animation-area">
+                <p>Cubic bezier</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
