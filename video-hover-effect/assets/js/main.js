@@ -9,7 +9,11 @@
         
         $('[data-toggle="tooltip"]').tooltip();
 
-
+        // video popup
+        $('.mfp-iframe').magnificPopup({
+            type: 'iframe'
+            // other options
+          });
 
         
 

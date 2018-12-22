@@ -101,3 +101,33 @@ a:hover { text-decoration: none }
 .video-area {
     margin-bottom: 20px;
 }
+
+.video-top-desc span {
+    display: inline-block;
+}
+
+.video-top-desc span:before {
+    left: 38%;
+    top: 50%;
+    width: 15px;
+    height: 2px;
+    content: "";
+    background: #fff;
+    position: absolute;
+}
+
+.video-top-desc span:after {
+    right: 38%;
+    top: 50%;
+    width: 15px;
+    height: 2px;
+    content: "";
+    background: #fff;
+    position: absolute;
+}
+
+.video-top-desc {
+    position: relative;
+    padding: 0 20px;
+    display:block
+}
