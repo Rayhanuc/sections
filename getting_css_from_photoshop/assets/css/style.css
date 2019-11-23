@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+/* 
+promo_1 css start 
+*/
+
+.promo_1 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  /* width: 1046px; */
+  /* height: 567px; */
+  /* z-index: 10; */
+}
+.image {
+  background-image: url("../img/image.jpg");
+  position: absolute;
+  /* left: 56px; */
+  /* top: 422px; */
+  width: 60px;
+  height: 60px;
+  z-index: 9;
+  display: block;
+}
+
+.text-area {
+    position: absolute;
+    padding-left: 69px;
+}
+/* .heading {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(197, 73, 2);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  padding-left: 69px;
+  left: 131px;
+  top: 421.273px;
+  width: 117px;
+  height: 16px;
+  z-index: 7;
+} */
+/* .content {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(123, 123, 123);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 130px;
+  top: 440.989px;
+  width: 211px;
+  height: 47px;
+  z-index: 6;
+}
+.link {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(123, 123, 123);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 131px;
+  top: 499.563px;
+  width: 74px;
+  height: 8px;
+  z-index: 5;
+  padding-left: 66px;
+} */
+
+
+/* 
+promo_1 css end 
+*/
