@@ -1,0 +1,112 @@
+/*Main menu css start*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #888888;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+.logo-area {
+    padding-top: 6px;
+}
+
+
+.logo-area a img {
+    max-height: 54px;
+}
+
+.logo-area a {
+    padding: 18px 0;
+}
+.mainmenu-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu-area ul li {
+    display: inline-block;
+    /*padding: 17px;*/
+}
+
+.mainmenu-area ul li a {
+    color: #5c6a73;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+}
+
+.mainmenu-area .search-icon {
+    background: #a8a8a8;
+    padding: 17px 19px;
+}
+
+.mainmenu-area ul li a:hover {
+    border: 2px solid #dc08a3;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.mainmenu-area .search-icon a:hover {
+    border: 2px solid transparent;
+}
+
+.mainmenu-area .search-icon a {
+    color: white;
+    font-size: 20px;
+}
+
+.header-area {
+    border-bottom: 1px solid #373737;
+}
+/*Main menu css end*/
+
+/*hero-area css start*/
+.hero-text {
+    text-align: center;
+    padding: 90px 0;
+}
+
+.hero-text h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.hero-bg {
+	background-image: url(../img/hero-bg.jpg);
+}
+
+.hero-area {
+    background-position: center;
+    background-color: #222;
+    background-size: cover;
+}
+
+.shopnow-btn {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background: #ff63bf;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.shopnow-btn:hover {
+    background: #e84ea9;
+}
+
+/*hero-area css end*/
